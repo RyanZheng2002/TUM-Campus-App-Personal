@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codata:resources xmlns:codata="http://www.campusonline.at/xsd/meta/codata/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <link rel="up" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses" name="CpCourseLibDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950940221/curriculumPositionGroupings" name="curriculumPositionGroupings"/>
+   <resource>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/6E6A26547E6A12C3" name="IdentityLibDto" key="6E6A26547E6A12C3"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/9CB1354F33A33774" name="IdentityLibDto" key="9CB1354F33A33774"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/E9E3C0F8B86E163E" name="IdentityLibDto" key="E9E3C0F8B86E163E"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/6E6A26547E6A12C3" name="IdentityLibDto" key="6E6A26547E6A12C3"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/9CB1354F33A33774" name="IdentityLibDto" key="9CB1354F33A33774"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/E9E3C0F8B86E163E" name="IdentityLibDto" key="E9E3C0F8B86E163E"/>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950940221" name="CpCourseDto" key="950940221"/>
+      <content type="model-slc.tm.cp.student.CpCourseDetailDto">
+         <cpCourseDetailDto>
+            <cpCourseDto>
+               <id>950940221</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>0220821684</databaseValue>
+                  <courseNumber>0220821684</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Übungen zu Fallstudien der Mathematischen Modellbildung [MA2902]</value>
+                  <translations>
+                     <translation lang="de">Übungen zu Fallstudien der Mathematischen Modellbildung [MA2902]</translation>
+                     <translation lang="en">Mathematical Modelling (Exercise Session)</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <organisationResponsibleDto>
+                  <id>53597</id>
+                  <identificationName>TUS1DP1</identificationName>
+                  <validFrom coType="date">
+                     <value>2022-05-01</value>
+                  </validFrom>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Department of Mathematics</value>
+                     <translations>
+                        <translation lang="de">Department of Mathematics</translation>
+                        <translation lang="en">Department of Mathematics</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <parentOrganisationId>51897</parentOrganisationId>
+                  <orgPageLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/organisations/53597"/>
+               </organisationResponsibleDto>
+               <identityCodeDto>
+                  <id>20821684</id>
+               </identityCodeDto>
+               <identityCodeId>20821684</identityCodeId>
+               <courseTypeDto>
+                  <id>16</id>
+                  <key>UE</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Übung</value>
+                     <translations>
+                        <translation lang="de">Übung</translation>
+                        <translation lang="en">exercise</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>UE</value>
+                     <translations>
+                        <translation lang="de">UE</translation>
+                        <translation lang="en">UE</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>20</sort>
+               </courseTypeDto>
+               <courseLanguageDtos>
+                  <courseId>950940221</courseId>
+                  <languageDto>
+                     <id>1</id>
+                     <key>DE</key>
+                     <name coType="model-core.lib.model.langdata">
+                        <value>Deutsch</value>
+                        <translations>
+                           <translation lang="de">Deutsch</translation>
+                           <translation lang="en">German</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </name>
+                  </languageDto>
+                  <mainLanguage>true</mainLanguage>
+               </courseLanguageDtos>
+               <lectureships>
+                  <id>10642385</id>
+                  <courseId>950940221</courseId>
+                  <identityLibDto>
+                     <id>423477</id>
+                     <personId>423477</personId>
+                     <obfuscated>6E6A26547E6A12C3</obfuscated>
+                     <firstName>Frank-Dieter</firstName>
+                     <lastName>Filbir</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/6E6A26547E6A12C3" name="IdentityLibDto" key="6E6A26547E6A12C3"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>1</sort>
+               </lectureships>
+               <lectureships>
+                  <id>10647112</id>
+                  <courseId>950940221</courseId>
+                  <identityLibDto>
+                     <id>75058</id>
+                     <personId>75058</personId>
+                     <obfuscated>9CB1354F33A33774</obfuscated>
+                     <firstName>Johannes</firstName>
+                     <lastName>Müller</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/9CB1354F33A33774" name="IdentityLibDto" key="9CB1354F33A33774"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>2</sort>
+               </lectureships>
+               <lectureships>
+                  <id>10642386</id>
+                  <courseId>950940221</courseId>
+                  <identityLibDto>
+                     <id>77720</id>
+                     <personId>77720</personId>
+                     <obfuscated>E9E3C0F8B86E163E</obfuscated>
+                     <firstName>Simone</firstName>
+                     <lastName>Warzel</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/E9E3C0F8B86E163E" name="IdentityLibDto" key="E9E3C0F8B86E163E"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>3</sort>
+               </lectureships>
+               <displayMoreLectureships>false</displayMoreLectureships>
+               <examinationMethodName coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examinationMethodName>
+               <registrationAvailable>false</registrationAvailable>
+               <registrationInfo coType="model-core.lib.model.langdata">
+                  <value>Zu dieser LV existiert kein Anmeldeverfahren</value>
+                  <translations>
+                     <translation lang="de">Zu dieser LV existiert kein Anmeldeverfahren</translation>
+                     <translation lang="en">No registration procedures for this course</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </registrationInfo>
+               <registrationInfoStatus>INFO</registrationInfoStatus>
+               <registeredConfigType>REGPROC</registeredConfigType>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>2</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </cpCourseDto>
+            <cpCourseDescriptionDto>
+               <courseContent coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseContent>
+               <previousKnowledge coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </previousKnowledge>
+               <courseObjective coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseObjective>
+               <additionalInformation>
+                  <recommendedLiterature coType="model-core.lib.model.langdata">
+                     <translations>
+                        <translation lang="de"/>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </recommendedLiterature>
+                  <cpCourseUrlGroupDtos>
+                     <id>13</id>
+                     <groupName coType="model-core.lib.model.langdata">
+                        <value>Weitere Informationen</value>
+                        <translations>
+                           <translation lang="de">Weitere Informationen</translation>
+                           <translation lang="en">Additional information</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </groupName>
+                     <courseUrlDtoList>
+                        <id>6</id>
+                        <url>http://www-m16.ma.tum.de/Allgemeines/Fallstd18</url>
+                        <name coType="model-core.lib.model.langdata">
+                           <value>Zusatzinformationen</value>
+                           <translations>
+                              <translation lang="de">Zusatzinformationen</translation>
+                              <translation lang="en">additional information</translation>
+                              <translation lang="fr"/>
+                              <translation lang="it"/>
+                           </translations>
+                        </name>
+                        <sorting>35</sorting>
+                     </courseUrlDtoList>
+                     <sorting>65</sorting>
+                  </cpCourseUrlGroupDtos>
+                  <comments coType="model-core.lib.model.langdata">
+                     <value>[LV-Evaluation:MA,via=220865112]
+Die Übungsgruppen wurden für die Wahl der Hausarbeitsthemen eingerichtet. Die Gruppennamen sind von der Form &amp;apos;Gruppe (a,b,c)&amp;apos;, wobei a = 0,1,2, b = 0,1,2, c = 0,1,2, und genau eine der drei Zahlen ist = 0. Die Zahlen, die ungleich 0 sind bezeichnen die gewählten Themen, wobei a ein Thema aus Fachgebiet 1, b ein Thema aus Fachgebiet 2 und c ein Thema aus Fachgebiet 3 bezeichnet. Z.B. wählen Sie, wenn Sie sich in &amp;apos;Gruppe (2,0,1)&amp;apos; anmelden, Thema 2 aus Fachgebiet 1, Thema 1 aus Fachgebiet 3 und kein Thema aus Fachgebiet 2.</value>
+                     <translations>
+                        <translation lang="de">[LV-Evaluation:MA,via=220865112]
+Die Übungsgruppen wurden für die Wahl der Hausarbeitsthemen eingerichtet. Die Gruppennamen sind von der Form &amp;apos;Gruppe (a,b,c)&amp;apos;, wobei a = 0,1,2, b = 0,1,2, c = 0,1,2, und genau eine der drei Zahlen ist = 0. Die Zahlen, die ungleich 0 sind bezeichnen die gewählten Themen, wobei a ein Thema aus Fachgebiet 1, b ein Thema aus Fachgebiet 2 und c ein Thema aus Fachgebiet 3 bezeichnet. Z.B. wählen Sie, wenn Sie sich in &amp;apos;Gruppe (2,0,1)&amp;apos; anmelden, Thema 2 aus Fachgebiet 1, Thema 1 aus Fachgebiet 3 und kein Thema aus Fachgebiet 2.</translation>
+                        <translation lang="en">[LV-Evaluation:MA,via=220865112]</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </comments>
+               </additionalInformation>
+               <assessmentScheme coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </assessmentScheme>
+               <examRegistration coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examRegistration>
+               <courseRegistrationInfo coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseRegistrationInfo>
+               <numberOfExams coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </numberOfExams>
+               <teachingMethod coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </teachingMethod>
+            </cpCourseDescriptionDto>
+            <displayExamInformation>false</displayExamInformation>
+            <sameCourseDtos>
+               <id>950940221</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>0220821684</databaseValue>
+                  <courseNumber>0220821684</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Übungen zu Fallstudien der Mathematischen Modellbildung [MA2902]</value>
+                  <translations>
+                     <translation lang="de">Übungen zu Fallstudien der Mathematischen Modellbildung [MA2902]</translation>
+                     <translation lang="en">Mathematical Modelling (Exercise Session)</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <courseTypeDto>
+                  <id>16</id>
+                  <key>UE</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Übung</value>
+                     <translations>
+                        <translation lang="de">Übung</translation>
+                        <translation lang="en">exercise</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>UE</value>
+                     <translations>
+                        <translation lang="de">UE</translation>
+                        <translation lang="en">UE</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>20</sort>
+               </courseTypeDto>
+               <lectureships>
+                  <id>10642385</id>
+                  <courseId>950940221</courseId>
+                  <identityLibDto>
+                     <id>423477</id>
+                     <personId>423477</personId>
+                     <obfuscated>6E6A26547E6A12C3</obfuscated>
+                     <firstName>Frank-Dieter</firstName>
+                     <lastName>Filbir</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/6E6A26547E6A12C3" name="IdentityLibDto" key="6E6A26547E6A12C3"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>1</sort>
+               </lectureships>
+               <lectureships>
+                  <id>10647112</id>
+                  <courseId>950940221</courseId>
+                  <identityLibDto>
+                     <id>75058</id>
+                     <personId>75058</personId>
+                     <obfuscated>9CB1354F33A33774</obfuscated>
+                     <firstName>Johannes</firstName>
+                     <lastName>Müller</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/9CB1354F33A33774" name="IdentityLibDto" key="9CB1354F33A33774"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>2</sort>
+               </lectureships>
+               <lectureships>
+                  <id>10642386</id>
+                  <courseId>950940221</courseId>
+                  <identityLibDto>
+                     <id>77720</id>
+                     <personId>77720</personId>
+                     <obfuscated>E9E3C0F8B86E163E</obfuscated>
+                     <firstName>Simone</firstName>
+                     <lastName>Warzel</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/E9E3C0F8B86E163E" name="IdentityLibDto" key="E9E3C0F8B86E163E"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>3</sort>
+               </lectureships>
+               <displayMoreLectureships>false</displayMoreLectureships>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>2</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </sameCourseDtos>
+         </cpCourseDetailDto>
+      </content>
+   </resource>
+</codata:resources>
+

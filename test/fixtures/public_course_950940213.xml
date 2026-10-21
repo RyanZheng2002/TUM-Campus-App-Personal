@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codata:resources xmlns:codata="http://www.campusonline.at/xsd/meta/codata/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <link rel="up" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses" name="CpCourseLibDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950940213/curriculumPositionGroupings" name="curriculumPositionGroupings"/>
+   <resource>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950940213" name="CpCourseRegistrationDto" key="950940213"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/8DC5810DE6650DFB" name="IdentityLibDto" key="8DC5810DE6650DFB"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/29E8E0024F5EB771" name="IdentityLibDto" key="29E8E0024F5EB771"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/8DC5810DE6650DFB" name="IdentityLibDto" key="8DC5810DE6650DFB"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/29E8E0024F5EB771" name="IdentityLibDto" key="29E8E0024F5EB771"/>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950940213" name="CpCourseDto" key="950940213"/>
+      <content type="model-slc.tm.cp.student.CpCourseDetailDto">
+         <cpCourseDetailDto>
+            <cpCourseDto>
+               <id>950940213</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>0920774347</databaseValue>
+                  <courseNumber>0920774347</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Grundlagen der waldbaulichen Einzelplanung/Jahresbetriebsplanung</value>
+                  <translations>
+                     <translation lang="de">Grundlagen der waldbaulichen Einzelplanung/Jahresbetriebsplanung</translation>
+                     <translation lang="en">Basics of silvicultural planning</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <organisationResponsibleDto>
+                  <id>50241</id>
+                  <identificationName>TUWZG3B</identificationName>
+                  <validFrom coType="date">
+                     <value>2019-09-01</value>
+                  </validFrom>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Lehrstuhl für Ökosystemdynamik und Waldmanagement in Gebirgslandschaften (Prof. Seidl)</value>
+                     <translations>
+                        <translation lang="de">Lehrstuhl für Ökosystemdynamik und Waldmanagement in Gebirgslandschaften (Prof. Seidl)</translation>
+                        <translation lang="en">Chair of Ecosystem Dynamics and Forest Management in Mountainous Regions (Prof. Seidl)</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <parentOrganisationId>51266</parentOrganisationId>
+                  <orgPageLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/organisations/50241"/>
+               </organisationResponsibleDto>
+               <identityCodeDto>
+                  <id>20774347</id>
+               </identityCodeDto>
+               <identityCodeId>20774347</identityCodeId>
+               <courseTypeDto>
+                  <id>17</id>
+                  <key>VO</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Vorlesung</value>
+                     <translations>
+                        <translation lang="de">Vorlesung</translation>
+                        <translation lang="en">lecture</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>VO</value>
+                     <translations>
+                        <translation lang="de">VO</translation>
+                        <translation lang="en">VO</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>10</sort>
+               </courseTypeDto>
+               <courseLanguageDtos>
+                  <courseId>950940213</courseId>
+                  <languageDto>
+                     <id>1</id>
+                     <key>DE</key>
+                     <name coType="model-core.lib.model.langdata">
+                        <value>Deutsch</value>
+                        <translations>
+                           <translation lang="de">Deutsch</translation>
+                           <translation lang="en">German</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </name>
+                  </languageDto>
+                  <mainLanguage>true</mainLanguage>
+               </courseLanguageDtos>
+               <lectureships>
+                  <id>10593305</id>
+                  <courseId>950940213</courseId>
+                  <identityLibDto>
+                     <id>73836</id>
+                     <personId>73836</personId>
+                     <obfuscated>8DC5810DE6650DFB</obfuscated>
+                     <firstName>Thomas</firstName>
+                     <lastName>Knoke</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/8DC5810DE6650DFB" name="IdentityLibDto" key="8DC5810DE6650DFB"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>1</id>
+                     <key>L</key>
+                     <name>Leiter*in</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10592525</id>
+                  <courseId>950940213</courseId>
+                  <identityLibDto>
+                     <id>71801</id>
+                     <personId>71801</personId>
+                     <obfuscated>29E8E0024F5EB771</obfuscated>
+                     <firstName>Bernhard</firstName>
+                     <lastName>Felbermeier</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/29E8E0024F5EB771" name="IdentityLibDto" key="29E8E0024F5EB771"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>1</sort>
+               </lectureships>
+               <displayMoreLectureships>false</displayMoreLectureships>
+               <examinationMethodName coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examinationMethodName>
+               <registrationAvailable>true</registrationAvailable>
+               <registrationInfo coType="model-core.lib.model.langdata">
+                  <value>LV-Anmeldung möglich</value>
+                  <translations>
+                     <translation lang="de">LV-Anmeldung möglich</translation>
+                     <translation lang="en">Course open for registration</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </registrationInfo>
+               <registrationInfoStatus>RUNNING</registrationInfoStatus>
+               <registeredConfigType>REGPROC</registeredConfigType>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>1</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </cpCourseDto>
+            <cpCourseDescriptionDto>
+               <courseContent coType="model-core.lib.model.langdata">
+                  <value>Bestandesanalyse und –planung (natural, finanziell, ökologisch)</value>
+                  <translations>
+                     <translation lang="de">Bestandesanalyse und –planung (natural, finanziell, ökologisch)</translation>
+                     <translation lang="en">Analysis of stands and stand level planning (biophysical, financial, ecological)</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseContent>
+               <previousKnowledge coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </previousKnowledge>
+               <courseObjective coType="model-core.lib.model.langdata">
+                  <value>Fähigkeit vermitteln, operative Planungen („Wie sollen die Dinge am besten durchgeführt werden?“) durchzuführen und strategischen Planungen („Welche Dinge sollen wir am besten tun?“) zu verstehen und umzusetzen. Fähigkeit, Planungen partizipativ durchzuführen und umzusetzen. Fähigkeit zur Anwendung systematischer Analysemethoden für die forstbetriebliche Planung.</value>
+                  <translations>
+                     <translation lang="de">Fähigkeit vermitteln, operative Planungen („Wie sollen die Dinge am besten durchgeführt werden?“) durchzuführen und strategischen Planungen („Welche Dinge sollen wir am besten tun?“) zu verstehen und umzusetzen. Fähigkeit, Planungen partizipativ durchzuführen und umzusetzen. Fähigkeit zur Anwendung systematischer Analysemethoden für die forstbetriebliche Planung.</translation>
+                     <translation lang="en">Obtaining the ability to carry out operational and strategical planning. Learning integrative and participatory planning. Ability to apply analytical methodology.</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseObjective>
+               <additionalInformation>
+                  <recommendedLiterature coType="model-core.lib.model.langdata">
+                     <value>Oesten, G.; Roeder, A. (2002): Management von Forstbetrieben. www.forstbuch.de. Kurth, H. (1994): Forsteinrichtung: Nachhaltige Regelung des Waldes. Berlin: Deutscher Landwirtschaftsverlag. Kramer, H. (1982): Nutzungsplanung im Forstbetrieb. Frankfurt. Speidel, G. (1972): Planung im Forstbetrieb. Hamburg: Parey’s. Davis, L.S. u.a. (2001): Forest Management. New York: McGraw-Hill. Mc. Donagh, K.D. (2002): System dynamics simulation to improve timber harvesting system management. Blacksburg. Garland, J. (1989): Tackling productivity in mechanized harvesting. Corvallis. Forest Industries. Brink, M.P., Kellogg, L.D., Warkotsch, P.W. (1995): Harvesting and Transport Planning – a Holistic Approach. Suid Afrikaanse Bosboutydskrif.</value>
+                     <translations>
+                        <translation lang="de">Oesten, G.; Roeder, A. (2002): Management von Forstbetrieben. www.forstbuch.de. Kurth, H. (1994): Forsteinrichtung: Nachhaltige Regelung des Waldes. Berlin: Deutscher Landwirtschaftsverlag. Kramer, H. (1982): Nutzungsplanung im Forstbetrieb. Frankfurt. Speidel, G. (1972): Planung im Forstbetrieb. Hamburg: Parey’s. Davis, L.S. u.a. (2001): Forest Management. New York: McGraw-Hill. Mc. Donagh, K.D. (2002): System dynamics simulation to improve timber harvesting system management. Blacksburg. Garland, J. (1989): Tackling productivity in mechanized harvesting. Corvallis. Forest Industries. Brink, M.P., Kellogg, L.D., Warkotsch, P.W. (1995): Harvesting and Transport Planning – a Holistic Approach. Suid Afrikaanse Bosboutydskrif.</translation>
+                        <translation lang="en">Oesten, G.; Roeder, A. (2002): Management von Forstbetrieben. www.forstbuch.de. Kurth, H. (1994): Forsteinrichtung: Nachhaltige Regelung des Waldes. Berlin: Deutscher Landwirtschaftsverlag. Kramer, H. (1982): Nutzungsplanung im Forstbetrieb. Frankfurt. Speidel, G. (1972): Planung im Forstbetrieb. Hamburg: Parey’s. Davis, L.S. u.a. (2001): Forest Management. New York: McGraw-Hill. Mc. Donagh, K.D. (2002): System dynamics simulation to improve timber harvesting system management. Blacksburg. Garland, J. (1989): Tackling productivity in mechanized harvesting. Corvallis. Forest Industries. Brink, M.P., Kellogg, L.D., Warkotsch, P.W. (1995): Harvesting and Transport Planning – a Holistic Approach. Suid Afrikaanse Bosboutydskrif.</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </recommendedLiterature>
+                  <cpCourseUrlGroupDtos>
+                     <id>12</id>
+                     <groupName coType="model-core.lib.model.langdata">
+                        <value>Online Unterlagen</value>
+                        <translations>
+                           <translation lang="de">Online Unterlagen</translation>
+                           <translation lang="en">Online information</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </groupName>
+                     <courseUrlDtoList>
+                        <id>11</id>
+                        <url>https://www.moodle.tum.de/course/view.php?id=122454</url>
+                        <name coType="model-core.lib.model.langdata">
+                           <value>E-Learning Kurs (Moodle)</value>
+                           <translations>
+                              <translation lang="de">E-Learning Kurs (Moodle)</translation>
+                              <translation lang="en">e-learning course (moodle)</translation>
+                              <translation lang="fr"/>
+                              <translation lang="it"/>
+                           </translations>
+                        </name>
+                        <sorting>10</sorting>
+                     </courseUrlDtoList>
+                     <sorting>60</sorting>
+                  </cpCourseUrlGroupDtos>
+                  <comments coType="model-core.lib.model.langdata">
+                     <translations>
+                        <translation lang="de"/>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </comments>
+               </additionalInformation>
+               <courseCategoryDto>
+                  <categoryGroupDto>
+                     <name coType="model-core.lib.model.langdata">
+                        <value>eLearning</value>
+                        <translations>
+                           <translation lang="de">eLearning</translation>
+                           <translation lang="en">eLearning</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </name>
+                     <categoryElementDto>
+                        <name coType="model-core.lib.model.langdata">
+                           <value>Neuen Moodle-Kurs im aktuellen Semester bereitstellen</value>
+                           <translations>
+                              <translation lang="de">Neuen Moodle-Kurs im aktuellen Semester bereitstellen</translation>
+                              <translation lang="en">Provide new moodle course in current semester</translation>
+                              <translation lang="fr"/>
+                              <translation lang="it"/>
+                           </translations>
+                        </name>
+                     </categoryElementDto>
+                  </categoryGroupDto>
+               </courseCategoryDto>
+               <assessmentScheme coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </assessmentScheme>
+               <examRegistration coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examRegistration>
+               <courseRegistrationInfo coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseRegistrationInfo>
+               <numberOfExams coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </numberOfExams>
+               <teachingMethod coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </teachingMethod>
+            </cpCourseDescriptionDto>
+            <displayExamInformation>false</displayExamInformation>
+            <sameCourseDtos>
+               <id>950940213</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>0920774347</databaseValue>
+                  <courseNumber>0920774347</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Grundlagen der waldbaulichen Einzelplanung/Jahresbetriebsplanung</value>
+                  <translations>
+                     <translation lang="de">Grundlagen der waldbaulichen Einzelplanung/Jahresbetriebsplanung</translation>
+                     <translation lang="en">Basics of silvicultural planning</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <courseTypeDto>
+                  <id>17</id>
+                  <key>VO</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Vorlesung</value>
+                     <translations>
+                        <translation lang="de">Vorlesung</translation>
+                        <translation lang="en">lecture</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>VO</value>
+                     <translations>
+                        <translation lang="de">VO</translation>
+                        <translation lang="en">VO</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>10</sort>
+               </courseTypeDto>
+               <lectureships>
+                  <id>10593305</id>
+                  <courseId>950940213</courseId>
+                  <identityLibDto>
+                     <id>73836</id>
+                     <personId>73836</personId>
+                     <obfuscated>8DC5810DE6650DFB</obfuscated>
+                     <firstName>Thomas</firstName>
+                     <lastName>Knoke</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/8DC5810DE6650DFB" name="IdentityLibDto" key="8DC5810DE6650DFB"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>1</id>
+                     <key>L</key>
+                     <name>Leiter*in</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10592525</id>
+                  <courseId>950940213</courseId>
+                  <identityLibDto>
+                     <id>71801</id>
+                     <personId>71801</personId>
+                     <obfuscated>29E8E0024F5EB771</obfuscated>
+                     <firstName>Bernhard</firstName>
+                     <lastName>Felbermeier</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/29E8E0024F5EB771" name="IdentityLibDto" key="29E8E0024F5EB771"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+                  <sort>1</sort>
+               </lectureships>
+               <displayMoreLectureships>false</displayMoreLectureships>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>1</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </sameCourseDtos>
+         </cpCourseDetailDto>
+      </content>
+   </resource>
+</codata:resources>
+

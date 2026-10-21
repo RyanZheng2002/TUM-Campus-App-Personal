@@ -1,0 +1,19 @@
+enum UserPreference {
+  cafeteria(String),
+  departure(int),
+  studyRoom(int),
+  homeWidgets(List<String>),
+  theme(int),
+  calendarColors(String),
+  browser(bool),
+  studentCardPicture(bool),
+  failedGrades(bool),
+  weekends(bool),
+  hiddenCalendarEntries(bool),
+  calendarSync(bool),
+  calendarTab(int);
+
+  final Type type;
+
+  const UserPreference(this.type);
+}

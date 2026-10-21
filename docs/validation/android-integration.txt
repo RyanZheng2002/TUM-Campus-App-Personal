@@ -1,0 +1,74 @@
+Running Gradle task 'assembleDebug'...
+Picked up JAVA_TOOL_OPTIONS: -Duser.home=<workspace>\work\toolchain
+Warning: Flutter support for your project's Gradle version (8.14.5) will soon be dropped. Please upgrade your Gradle version to a version of at least 9.1.0 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's gradle version is typically defined in the gradle wrapper file. By default, this can be found at <workspace>\work\campus_flutter\android/gradle/wrapper/gradle-wrapper.properties.
+For more information, see https://docs.gradle.org/current/userguide/gradle_wrapper.html.
+
+Warning: Flutter support for your project's Android Gradle Plugin version (Android Gradle Plugin version 8.13.2) will soon be dropped. Please upgrade your Android Gradle Plugin version to a version of at least Android Gradle Plugin version 9.0.1 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's AGP version is typically defined in the plugins block of the `settings.gradle` file (<workspace>\work\campus_flutter\android/settings.gradle), by a plugin with the id of com.android.application.
+If you don't see a plugins block, your project was likely created with an older template version. In this case it is most likely defined in the top-level build.gradle file (<workspace>\work\campus_flutter\android/build.gradle) by the following line in the dependencies block of the buildscript: "classpath 'com.android.tools.build:gradle:<version>'".
+
+Running Gradle task 'assembleDebug'...                             44.1s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           3.9s
+I/campus.personal( 2642): Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+D/FlutterGeolocator( 2642): Geolocator foreground service connected
+D/FlutterGeolocator( 2642): Initializing Geolocator services
+D/FlutterGeolocator( 2642): Flutter engine connected. Connected engine count 1
+I/Choreographer( 2642): Skipped 72 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI( 2642): Sending viewport metrics to the engine.
+I/campus.personal( 2642): Compiler allocated 5417KB to compile void android.view.ViewRootImpl.performTraversals()
+D/ProfileInstaller( 2642): Installing profile for de.tum.in.tumcampus.personal
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:8266/6n_Z0kBurmY=/
+VMServiceFlutterDriver: Isolate found with number: 8847914190578811
+VMServiceFlutterDriver: Isolate 8847914190578811 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 2642): 00:00 +0: (setUpAll)
+VMServiceFlutterDriver: Connected to Flutter application.
+I/Choreographer( 2642): Skipped 35 frames!  The application may be doing too much work on its main thread.
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Localization initialized[0m
+I/flutter ( 2642): 00:00 +1: Android calendar cLvNr -> live course 950944244
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Start[0m
+I/Choreographer( 2642): Skipped 72 frames!  The application may be doing too much work on its main thread.
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init state[0m
+I/flutter ( 2642): [32m[🌎 Easy Localization] [INFO] Start locale loaded en[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Build[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Load Localization Delegate[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Load asset from assets/translations[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Build[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+D/FlutterJNI( 2642): Sending viewport metrics to the engine.
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+D/EGL_emulation( 2642): app_time_stats: avg=1083.87ms min=212.91ms max=2766.54ms count=5
+I/campus.personal( 2642): NativeAlloc concurrent mark compact GC freed 3964KB AllocSpace bytes, 5(256KB) LOS objects, 49% free, 3336KB/6673KB, paused 881us,5.169ms total 59.736ms
+D/EGL_emulation( 2642): app_time_stats: avg=2209.57ms min=405.06ms max=4946.92ms count=3
+I/campus.personal( 2642): NativeAlloc concurrent mark compact GC freed 212KB AllocSpace bytes, 8(1072KB) LOS objects, 49% free, 3348KB/6697KB, paused 5.205ms,2.229ms total 70.562ms
+D/EGL_emulation( 2642): app_time_stats: avg=378.46ms min=39.35ms max=860.32ms count=5
+I/flutter ( 2642): 00:09 +2: Android calendar cLvNr -> live course 950945432
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Start[0m
+I/flutter ( 2642): 00:09 +2: Android calendar cLvNr -> live course 950944244
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init state[0m
+I/flutter ( 2642): [32m[🌎 Easy Localization] [INFO] Start locale loaded en[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Build[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Load Localization Delegate[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Load asset from assets/translations[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Build[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+I/flutter ( 2642): [90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+D/EGL_emulation( 2642): app_time_stats: avg=1065.53ms min=662.98ms max=1468.08ms count=2
+D/EGL_emulation( 2642): app_time_stats: avg=147.81ms min=46.45ms max=467.19ms count=10
+D/EGL_emulation( 2642): app_time_stats: avg=869.72ms min=226.71ms max=1512.74ms count=2
+I/flutter ( 2642): 00:12 +3: (tearDownAll)
+I/flutter ( 2642): 00:12 +4: All tests passed!
+All tests passed.
+Leaving the application running.

@@ -1,0 +1,7 @@
+Starting: Intent { cmp=de.tum.in.tumcampus.personal/de.tum.in.tumcampus.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: de.tum.in.tumcampus.personal/de.tum.in.tumcampus.MainActivity
+TotalTime: 5440
+WaitTime: 5461
+Complete

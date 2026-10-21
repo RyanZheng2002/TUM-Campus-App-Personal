@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codata:resources xmlns:codata="http://www.campusonline.at/xsd/meta/codata/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <link rel="up" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses" name="CpCourseLibDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950945432/curriculumPositionGroupings" name="curriculumPositionGroupings"/>
+   <resource>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950945432" name="CpCourseRegistrationDto" key="950945432"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950945432" name="CpCourseDto" key="950945432"/>
+      <content type="model-slc.tm.cp.student.CpCourseDetailDto">
+         <cpCourseDetailDto>
+            <cpCourseDto>
+               <id>950945432</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>0000000965</databaseValue>
+                  <courseNumber>0000000965</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Hyperschallströmungen und kinetische Gastheorie (ED140018)</value>
+                  <translations>
+                     <translation lang="de">Hyperschallströmungen und kinetische Gastheorie (ED140018)</translation>
+                     <translation lang="en">Hypersonic Flows and Kinetic Theory of Gases(ED140018)</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <organisationResponsibleDto>
+                  <id>15307</id>
+                  <identificationName>TUMWAER</identificationName>
+                  <validFrom coType="date">
+                     <value>2008-04-01</value>
+                  </validFrom>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Lehrstuhl für Aerodynamik und Strömungsmechanik (Prof. Adams)</value>
+                     <translations>
+                        <translation lang="de">Lehrstuhl für Aerodynamik und Strömungsmechanik (Prof. Adams)</translation>
+                        <translation lang="en">Chair of Aerodynamics and Fluid mechanics (Prof. Adams)</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <parentOrganisationId>51840</parentOrganisationId>
+                  <orgPageLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/organisations/15307"/>
+               </organisationResponsibleDto>
+               <identityCodeDto>
+                  <id>90095101</id>
+               </identityCodeDto>
+               <identityCodeId>90095101</identityCodeId>
+               <courseTypeDto>
+                  <id>17</id>
+                  <key>VO</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Vorlesung</value>
+                     <translations>
+                        <translation lang="de">Vorlesung</translation>
+                        <translation lang="en">lecture</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>VO</value>
+                     <translations>
+                        <translation lang="de">VO</translation>
+                        <translation lang="en">VO</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>10</sort>
+               </courseTypeDto>
+               <courseLanguageDtos>
+                  <courseId>950945432</courseId>
+                  <languageDto>
+                     <id>1</id>
+                     <key>DE</key>
+                     <name coType="model-core.lib.model.langdata">
+                        <value>Deutsch</value>
+                        <translations>
+                           <translation lang="de">Deutsch</translation>
+                           <translation lang="en">German</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </name>
+                  </languageDto>
+                  <mainLanguage>true</mainLanguage>
+               </courseLanguageDtos>
+               <lectureships>
+                  <id>10594397</id>
+                  <courseId>950945432</courseId>
+                  <identityLibDto>
+                     <id>77100</id>
+                     <personId>77100</personId>
+                     <obfuscated>0427229768BCE3DA</obfuscated>
+                     <firstName>Christian</firstName>
+                     <lastName>Stemmer</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>1</id>
+                     <key>L</key>
+                     <name>Leiter*in</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10594396</id>
+                  <courseId>950945432</courseId>
+                  <identityLibDto>
+                     <id>77100</id>
+                     <personId>77100</personId>
+                     <obfuscated>0427229768BCE3DA</obfuscated>
+                     <firstName>Christian</firstName>
+                     <lastName>Stemmer</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <displayMoreLectureships>false</displayMoreLectureships>
+               <examinationMethodName coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examinationMethodName>
+               <registrationAvailable>true</registrationAvailable>
+               <registrationInfo coType="model-core.lib.model.langdata">
+                  <value>LV-Anmeldung möglich</value>
+                  <translations>
+                     <translation lang="de">LV-Anmeldung möglich</translation>
+                     <translation lang="en">Course open for registration</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </registrationInfo>
+               <registrationInfoStatus>RUNNING</registrationInfoStatus>
+               <registeredConfigType>REGPROC</registeredConfigType>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>2</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </cpCourseDto>
+            <cpCourseDescriptionDto>
+               <courseContent coType="model-core.lib.model.langdata">
+                  <value>1. Grundlagen der elementaren Gaskinetik, Grunddefinitionen, Begriffsklärung
+2. Grundlagen verdünnter und hocherhitzter Gase
+3. Kinetische Gastheorie
+4. Allgemeine Lösungsmethoden der Boltzmann-Gleichung
+5. Spezielle Lösungen der Boltzmann-Gleichung
+6. Kontextabhängige und individuelle Auffassungen von Nachhaltigkeit bzgl. der ökologischen, sozialen und wirtschaftlichen Entwicklung</value>
+                  <translations>
+                     <translation lang="de">1. Grundlagen der elementaren Gaskinetik, Grunddefinitionen, Begriffsklärung
+2. Grundlagen verdünnter und hocherhitzter Gase
+3. Kinetische Gastheorie
+4. Allgemeine Lösungsmethoden der Boltzmann-Gleichung
+5. Spezielle Lösungen der Boltzmann-Gleichung
+6. Kontextabhängige und individuelle Auffassungen von Nachhaltigkeit bzgl. der ökologischen, sozialen und wirtschaftlichen Entwicklung</translation>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseContent>
+               <previousKnowledge coType="model-core.lib.model.langdata">
+                  <value>Grundlagen der Thermodynamik (MW2015), Wärmetransportphänomene (MW2023), Fluidmechanik 1 (MW2021) und Fluidmechanik 2 (MW1910)</value>
+                  <translations>
+                     <translation lang="de">Grundlagen der Thermodynamik (MW2015), Wärmetransportphänomene (MW2023), Fluidmechanik 1 (MW2021) und Fluidmechanik 2 (MW1910)</translation>
+                     <translation lang="en">Grundlagen der Thermodynamik (MW2015), Wärmetransportphänomene (MW2023), Fluidmechanik 1 (MW2021) und Fluidmechanik 2 (MW1910)</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </previousKnowledge>
+               <courseObjective coType="model-core.lib.model.langdata">
+                  <value>Nach der Teilnahme am Modul sind die Studierenden in der Lage,
+- Die Grundlagen der Gaskinetik zu erklären
+- Die Prinzipien der kinetischen Gastheorie zu erklären
+- Spezielle Lösungen der kinetischen Gastheorie zu beschreiben
+- Lösungsmethoden der Boltzmanngleichungen nachzuvollziehen
+- Hyperschallströmungen bei geringen Dichten in ihrem Charakter zu beschreiben
+- die erlernten Methoden und Kenntnisse im Hinblick auf nachhaltige ökologische, soziale und wirtschaftliche Entwicklung kontinuierlich zu reflektieren.
+- kontextabhängige und individuelle Auffassungen von Nachhaltigkeit einzubeziehen.
+- in Teams der eigenen Fachdisziplin, aber auch darüber hinaus in interdisziplinären Teams, die Sprache des jeweils anderen zu verstehen, eigene Entscheidungen zu rechtfertigen und mit Argumenten zu überzeugen.</value>
+                  <translations>
+                     <translation lang="de">Nach der Teilnahme am Modul sind die Studierenden in der Lage,
+- Die Grundlagen der Gaskinetik zu erklären
+- Die Prinzipien der kinetischen Gastheorie zu erklären
+- Spezielle Lösungen der kinetischen Gastheorie zu beschreiben
+- Lösungsmethoden der Boltzmanngleichungen nachzuvollziehen
+- Hyperschallströmungen bei geringen Dichten in ihrem Charakter zu beschreiben
+- die erlernten Methoden und Kenntnisse im Hinblick auf nachhaltige ökologische, soziale und wirtschaftliche Entwicklung kontinuierlich zu reflektieren.
+- kontextabhängige und individuelle Auffassungen von Nachhaltigkeit einzubeziehen.
+- in Teams der eigenen Fachdisziplin, aber auch darüber hinaus in interdisziplinären Teams, die Sprache des jeweils anderen zu verstehen, eigene Entscheidungen zu rechtfertigen und mit Argumenten zu überzeugen.</translation>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseObjective>
+               <additionalInformation>
+                  <recommendedLiterature coType="model-core.lib.model.langdata">
+                     <value>S. Chapman &amp;amp; T.G. Cowling, Mathematical theory of non-uniform gases. Cambridge University Press, Cambridge 1965.
+G.N. Patterson, Molecular flow of gases. Wiley, New York 1956.
+M.N. Kogan, Rarefied gas dynamics. Plenum, New York 1969.
+C. Cercignani, Mathematical methods in kinetic theory. Plenum, New York 1969.
+V.P. Shidlovskiy, Introduction to the dynamics of rarefied gases. American Elsevier Publishing, New York 1967.
+H. Grad, Principles of the kinetic theory of gases, in: Handbuch der Physik, Bd. 12, Berlin 1958.
+L. Waldmann, Transporterscheinungen in Gasen von mittlerem Druck, in: Handbuch der Physik, Bd. 12, Berlin 1958.
+W.G. Vincenti &amp;amp; Ch.H. Kruger, Introduction to physical gas dynamics. Wiley, New York 1967.
+J.J. Smolderen, The evolution of the equations of gas flow at low density, in: Progress in Aeronautical Sciences, Vol. 6, New York 1967.
+A. Frohn, Einführung in die Kinetische Gastheorie. AULA-Verlag Wiesbaden, 2. Auflage. 1988.
+H. Oertel Jr., Aerothermodynamik. Springer-Verlag, 1994.
+J.D. Anderson, Hypersonic and high temperature gas dynamics. McGraw-Hill, 1989, reprint of AIAA publishing, Reston, VA., 2000.
+E.H. Hirschel, Basis of Aerothermodynamics. Springer-Verlag, 2005.
+W.D. Hayes &amp;amp; R.F. Probstein, Hypersonic Flow Theory. Academic Press, New York and London, 1959.
+J.F. Clarke &amp;amp; M. McChesney, Dynamics of Relaxing Gases. Butterworths, London and Boston, 1976.</value>
+                     <translations>
+                        <translation lang="de">S. Chapman &amp;amp; T.G. Cowling, Mathematical theory of non-uniform gases. Cambridge University Press, Cambridge 1965.
+G.N. Patterson, Molecular flow of gases. Wiley, New York 1956.
+M.N. Kogan, Rarefied gas dynamics. Plenum, New York 1969.
+C. Cercignani, Mathematical methods in kinetic theory. Plenum, New York 1969.
+V.P. Shidlovskiy, Introduction to the dynamics of rarefied gases. American Elsevier Publishing, New York 1967.
+H. Grad, Principles of the kinetic theory of gases, in: Handbuch der Physik, Bd. 12, Berlin 1958.
+L. Waldmann, Transporterscheinungen in Gasen von mittlerem Druck, in: Handbuch der Physik, Bd. 12, Berlin 1958.
+W.G. Vincenti &amp;amp; Ch.H. Kruger, Introduction to physical gas dynamics. Wiley, New York 1967.
+J.J. Smolderen, The evolution of the equations of gas flow at low density, in: Progress in Aeronautical Sciences, Vol. 6, New York 1967.
+A. Frohn, Einführung in die Kinetische Gastheorie. AULA-Verlag Wiesbaden, 2. Auflage. 1988.
+H. Oertel Jr., Aerothermodynamik. Springer-Verlag, 1994.
+J.D. Anderson, Hypersonic and high temperature gas dynamics. McGraw-Hill, 1989, reprint of AIAA publishing, Reston, VA., 2000.
+E.H. Hirschel, Basis of Aerothermodynamics. Springer-Verlag, 2005.
+W.D. Hayes &amp;amp; R.F. Probstein, Hypersonic Flow Theory. Academic Press, New York and London, 1959.
+J.F. Clarke &amp;amp; M. McChesney, Dynamics of Relaxing Gases. Butterworths, London and Boston, 1976.</translation>
+                        <translation lang="en">S. Chapman &amp;amp; T.G. Cowling, Mathematical theory of non-uniform gases. Cambridge University Press, Cambridge 1965.
+G.N. Patterson, Molecular flow of gases. Wiley, New York 1956.
+M.N. Kogan, Rarefied gas dynamics. Plenum, New York 1969.
+C. Cercignani, Mathematical methods in kinetic theory. Plenum, New York 1969.
+V.P. Shidlovskiy, Introduction to the dynamics of rarefied gases. American Elsevier Publishing, New York 1967.
+H. Grad, Principles of the kinetic theory of gases, in: Handbuch der Physik, Bd. 12, Berlin 1958.
+L. Waldmann, Transporterscheinungen in Gasen von mittlerem Druck, in: Handbuch der Physik, Bd. 12, Berlin 1958.
+W.G. Vincenti &amp;amp; Ch.H. Kruger, Introduction to physical gas dynamics. Wiley, New York 1967.
+J.J. Smolderen, The evolution of the equations of gas flow at low density, in: Progress in Aeronautical Sciences, Vol. 6, New York 1967.
+A. Frohn, Einführung in die Kinetische Gastheorie. AULA-Verlag Wiesbaden, 2. Auflage. 1988.
+H. Oertel Jr., Aerothermodynamik. Springer-Verlag, 1994.
+J.D. Anderson, Hypersonic and high temperature gas dynamics. McGraw-Hill, 1989, reprint of AIAA publishing, Reston, VA., 2000.
+E.H. Hirschel, Basis of Aerothermodynamics. Springer-Verlag, 2005.
+W.D. Hayes &amp;amp; R.F. Probstein, Hypersonic Flow Theory. Academic Press, New York and London, 1959.
+J.F. Clarke &amp;amp; M. McChesney, Dynamics of Relaxing Gases. Butterworths, London and Boston, 1976.</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </recommendedLiterature>
+                  <cpCourseUrlGroupDtos>
+                     <id>12</id>
+                     <groupName coType="model-core.lib.model.langdata">
+                        <value>Online Unterlagen</value>
+                        <translations>
+                           <translation lang="de">Online Unterlagen</translation>
+                           <translation lang="en">Online information</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </groupName>
+                     <courseUrlDtoList>
+                        <id>11</id>
+                        <url>https://www.moodle.tum.de/course/view.php?idnumber=950773890</url>
+                        <name coType="model-core.lib.model.langdata">
+                           <value>E-Learning Kurs (Moodle)</value>
+                           <translations>
+                              <translation lang="de">E-Learning Kurs (Moodle)</translation>
+                              <translation lang="en">e-learning course (moodle)</translation>
+                              <translation lang="fr"/>
+                              <translation lang="it"/>
+                           </translations>
+                        </name>
+                        <sorting>10</sorting>
+                     </courseUrlDtoList>
+                     <sorting>60</sorting>
+                  </cpCourseUrlGroupDtos>
+                  <comments coType="model-core.lib.model.langdata">
+                     <translations>
+                        <translation lang="de"/>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </comments>
+               </additionalInformation>
+               <courseCategoryDto>
+                  <categoryGroupDto>
+                     <name coType="model-core.lib.model.langdata">
+                        <value>eLearning</value>
+                        <translations>
+                           <translation lang="de">eLearning</translation>
+                           <translation lang="en">eLearning</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </name>
+                     <categoryElementDto>
+                        <name coType="model-core.lib.model.langdata">
+                           <value>Neuen Moodle-Kurs im aktuellen Semester bereitstellen</value>
+                           <translations>
+                              <translation lang="de">Neuen Moodle-Kurs im aktuellen Semester bereitstellen</translation>
+                              <translation lang="en">Provide new moodle course in current semester</translation>
+                              <translation lang="fr"/>
+                              <translation lang="it"/>
+                           </translations>
+                        </name>
+                     </categoryElementDto>
+                  </categoryGroupDto>
+               </courseCategoryDto>
+               <assessmentScheme coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </assessmentScheme>
+               <examRegistration coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examRegistration>
+               <courseRegistrationInfo coType="model-core.lib.model.langdata">
+                  <value>TUM Online</value>
+                  <translations>
+                     <translation lang="de">TUM Online</translation>
+                     <translation lang="en">TUM Online</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseRegistrationInfo>
+               <numberOfExams coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </numberOfExams>
+               <teachingMethod coType="model-core.lib.model.langdata">
+                  <value>Das Modul besteht aus einer Vorlesung. Die theoretischen Grundlagen werden in der Vorlesung anhand eines Skripts zur Verfügung gestellt. Die Inhalte werden durch einen foliengestützten Vortrag mit Tafelanschrieb vermittelt.
+Damit lernen die Studierenden die Grundlagen der Gaskinetik zu erklären, die Prinzipien der kinetischen Gastheorie zu erklären, spezielle Lösungen der kinetischen Gastheorie zu beschreiben, Lösungsmethoden der Boltzmanngleichungen nachzuvollziehen, Hyperschallströmungen bei geringen Dichten in ihrem Charakter zu beschreiben, sowie die erlernten Methoden und Kenntnisse im Hinblick auf nachhaltige ökologische, soziale und wirtschaftliche Entwicklung kontinuierlich zu reflektieren und kontextabhängige und individuelle Auffassungen von Nachhaltigkeit einzubeziehen.
+Schriftliche Vorlesungsunterlagen (Skript), Tafelanschrieb</value>
+                  <translations>
+                     <translation lang="de">Das Modul besteht aus einer Vorlesung. Die theoretischen Grundlagen werden in der Vorlesung anhand eines Skripts zur Verfügung gestellt. Die Inhalte werden durch einen foliengestützten Vortrag mit Tafelanschrieb vermittelt.
+Damit lernen die Studierenden die Grundlagen der Gaskinetik zu erklären, die Prinzipien der kinetischen Gastheorie zu erklären, spezielle Lösungen der kinetischen Gastheorie zu beschreiben, Lösungsmethoden der Boltzmanngleichungen nachzuvollziehen, Hyperschallströmungen bei geringen Dichten in ihrem Charakter zu beschreiben, sowie die erlernten Methoden und Kenntnisse im Hinblick auf nachhaltige ökologische, soziale und wirtschaftliche Entwicklung kontinuierlich zu reflektieren und kontextabhängige und individuelle Auffassungen von Nachhaltigkeit einzubeziehen.
+Schriftliche Vorlesungsunterlagen (Skript), Tafelanschrieb</translation>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </teachingMethod>
+            </cpCourseDescriptionDto>
+            <displayExamInformation>false</displayExamInformation>
+            <sameCourseDtos>
+               <id>950945432</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>0000000965</databaseValue>
+                  <courseNumber>0000000965</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Hyperschallströmungen und kinetische Gastheorie (ED140018)</value>
+                  <translations>
+                     <translation lang="de">Hyperschallströmungen und kinetische Gastheorie (ED140018)</translation>
+                     <translation lang="en">Hypersonic Flows and Kinetic Theory of Gases(ED140018)</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <courseTypeDto>
+                  <id>17</id>
+                  <key>VO</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Vorlesung</value>
+                     <translations>
+                        <translation lang="de">Vorlesung</translation>
+                        <translation lang="en">lecture</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>VO</value>
+                     <translations>
+                        <translation lang="de">VO</translation>
+                        <translation lang="en">VO</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>10</sort>
+               </courseTypeDto>
+               <lectureships>
+                  <id>10594397</id>
+                  <courseId>950945432</courseId>
+                  <identityLibDto>
+                     <id>77100</id>
+                     <personId>77100</personId>
+                     <obfuscated>0427229768BCE3DA</obfuscated>
+                     <firstName>Christian</firstName>
+                     <lastName>Stemmer</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>1</id>
+                     <key>L</key>
+                     <name>Leiter*in</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10594396</id>
+                  <courseId>950945432</courseId>
+                  <identityLibDto>
+                     <id>77100</id>
+                     <personId>77100</personId>
+                     <obfuscated>0427229768BCE3DA</obfuscated>
+                     <firstName>Christian</firstName>
+                     <lastName>Stemmer</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/0427229768BCE3DA" name="IdentityLibDto" key="0427229768BCE3DA"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <displayMoreLectureships>false</displayMoreLectureships>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>2</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </sameCourseDtos>
+         </cpCourseDetailDto>
+      </content>
+   </resource>
+</codata:resources>
+

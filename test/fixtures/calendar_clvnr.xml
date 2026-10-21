@@ -1,0 +1,24 @@
+<rowset>
+  <!-- Synthetic current event using the real calendar URL format documented
+       by TUM-Dev/Campus-iOS CalendarEvent.swift. Course IDs are verified live. -->
+  <event>
+    <nr>893029371</nr>
+    <status>FT</status>
+    <url>https://campus.tum.de/tumonline/lv.detail?cLvNr=950945432</url>
+    <title>Hyperschallstroemungen VO</title>
+    <description>fix; Abhaltung; </description>
+    <dtstart>2026-10-21 09:45:00</dtstart>
+    <dtend>2026-10-21 11:15:00</dtend>
+    <location>1639, Vortragsraum/Seminarraum (5506.01.639)</location>
+  </event>
+  <event>
+    <nr>1</nr>
+    <status>FT</status>
+    <url>https://campus.tum.de/tumonline/lv.detail?cLvNr=950944244</url>
+    <title>Deutsch als Fremdsprache B1.1 SE</title>
+    <description>fix; Abhaltung; </description>
+    <dtstart>2026-10-20 11:00:00</dtstart>
+    <dtend>2026-10-20 13:00:00</dtend>
+    <location>1.04, Seminarraum (4153.EG.001)</location>
+  </event>
+</rowset>

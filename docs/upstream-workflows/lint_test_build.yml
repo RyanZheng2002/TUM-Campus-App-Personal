@@ -1,0 +1,80 @@
+name: Linting, Testing and Building
+
+on:
+  pull_request:
+
+jobs:
+  analyze_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install Flutter Packages
+        run: flutter pub get
+
+      - name: Analyze Project
+        run: dart analyze --fatal-warnings
+
+      - name: Run Tests
+        run: flutter test
+
+  build:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        include:
+          - platform: ios
+            os: macos-26
+          - platform: android
+            os: ubuntu-latest
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - if: matrix.platform == 'android'
+        name: Install Java SDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'corretto'
+          java-version: '21'
+          cache: 'gradle'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install Flutter Packages
+        run: flutter pub get
+
+      - if: matrix.platform == 'ios'
+        name: Cache CocoaPods
+        uses: actions/cache@v4
+        with:
+          path: |
+            ios/Pods
+            ~/.cocoapods
+          key: ${{ runner.os }}-pods-${{ hashFiles('ios/Podfile.lock') }}
+          restore-keys: ${{ runner.os }}-pods-
+
+      - if: matrix.platform == 'ios'
+        name: Install CocoaPods
+        run: cd ./ios && pod install
+
+      - if: matrix.platform == 'ios'
+        name: Build iOS
+        run: flutter build ipa --no-codesign
+
+      - if: matrix.platform == 'android'
+        name: Build Android
+        run: flutter build apk

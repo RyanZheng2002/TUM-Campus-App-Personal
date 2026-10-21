@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">An Overview About Your Upcoming Events.</string>
+    <string name="calendar_widget">calendar Widget TUM</string>
+    <string name="calendar_widget_select_lectures">Select lectures</string>
+    <string name="calendar_widget_no_lectures">No lectures planned :)</string>
+    <string name="calendar_widget_old_data">This widget was last updated over 2 weeks ago.Open the application to update the data</string>
+    <string name="IN">in</string>
+    <string name="MINUTES">minutes</string>
+    <string name="just_now">moments ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="event_start_end_format_string" translatable="false">%1$s–%2$s</string>
+    <string name="unknown">Unknown</string>
+    <plurals name="yearsAgo">
+        <item quantity="one">%d year ago</item>
+        <item quantity="other">%d years ago</item>
+    </plurals>
+    <plurals name="monthsAgo">
+        <item quantity="one">%d month ago</item>
+        <item quantity="other">%d months ago</item>
+    </plurals>
+    <plurals name="daysAgo">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <plurals name="hoursAgo">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="minutesAgo">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+</resources>

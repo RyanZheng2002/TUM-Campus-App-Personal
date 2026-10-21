@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codata:resources xmlns:codata="http://www.campusonline.at/xsd/meta/codata/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <link rel="up" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses" name="CpCourseLibDto"/>
+   <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950944244/curriculumPositionGroupings" name="curriculumPositionGroupings"/>
+   <resource>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/slc.tm.cp/course-registration/950944244" name="CpCourseRegistrationDto" key="950944244"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/D675E77BE75C4C91" name="IdentityLibDto" key="D675E77BE75C4C91"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/5E5F64D4B5E85E5F" name="IdentityLibDto" key="5E5F64D4B5E85E5F"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/3AE75D5BE43272AC" name="IdentityLibDto" key="3AE75D5BE43272AC"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/1BED040109D1991F" name="IdentityLibDto" key="1BED040109D1991F"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/12AB0271ABD30B22" name="IdentityLibDto" key="12AB0271ABD30B22"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/D675E77BE75C4C91" name="IdentityLibDto" key="D675E77BE75C4C91"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/5E5F64D4B5E85E5F" name="IdentityLibDto" key="5E5F64D4B5E85E5F"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/3AE75D5BE43272AC" name="IdentityLibDto" key="3AE75D5BE43272AC"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/1BED040109D1991F" name="IdentityLibDto" key="1BED040109D1991F"/>
+      <link rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/12AB0271ABD30B22" name="IdentityLibDto" key="12AB0271ABD30B22"/>
+      <link rel="detail" href="https://campus.tum.de/tumonline/ee/rest/slc.tm.cp/student/courses/950944244" name="CpCourseDto" key="950944244"/>
+      <content type="model-slc.tm.cp.student.CpCourseDetailDto">
+         <cpCourseDetailDto>
+            <cpCourseDto>
+               <id>950944244</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>220000DE18</databaseValue>
+                  <courseNumber>220000DE18</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Deutsch als Fremdsprache B1.1</value>
+                  <translations>
+                     <translation lang="de">Deutsch als Fremdsprache B1.1</translation>
+                     <translation lang="en">German as a Foreign Language B1.1</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <organisationResponsibleDto>
+                  <id>49040</id>
+                  <identificationName>TUZEIOD</identificationName>
+                  <validFrom coType="date">
+                     <value>2018-03-19</value>
+                  </validFrom>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Deutsch als Fremdsprache</value>
+                     <translations>
+                        <translation lang="de">Deutsch als Fremdsprache</translation>
+                        <translation lang="en">German as a Foreign Language</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <parentOrganisationId>26608</parentOrganisationId>
+                  <orgPageLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/organisations/49040"/>
+               </organisationResponsibleDto>
+               <identityCodeDto>
+                  <id>90075593</id>
+               </identityCodeDto>
+               <identityCodeId>90075593</identityCodeId>
+               <courseTypeDto>
+                  <id>15</id>
+                  <key>SE</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Seminar</value>
+                     <translations>
+                        <translation lang="de">Seminar</translation>
+                        <translation lang="en">seminar</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>SE</value>
+                     <translations>
+                        <translation lang="de">SE</translation>
+                        <translation lang="en">SE</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>30</sort>
+               </courseTypeDto>
+               <courseLanguageDtos>
+                  <courseId>950944244</courseId>
+                  <languageDto>
+                     <id>1</id>
+                     <key>DE</key>
+                     <name coType="model-core.lib.model.langdata">
+                        <value>Deutsch</value>
+                        <translations>
+                           <translation lang="de">Deutsch</translation>
+                           <translation lang="en">German</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </name>
+                  </languageDto>
+                  <mainLanguage>true</mainLanguage>
+               </courseLanguageDtos>
+               <lectureships>
+                  <id>10646310</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>383086</id>
+                     <personId>383086</personId>
+                     <obfuscated>D675E77BE75C4C91</obfuscated>
+                     <firstName>Terezija</firstName>
+                     <lastName>Grgic</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/D675E77BE75C4C91" name="IdentityLibDto" key="D675E77BE75C4C91"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10646300</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>276529</id>
+                     <personId>276529</personId>
+                     <obfuscated>5E5F64D4B5E85E5F</obfuscated>
+                     <firstName>Claudia</firstName>
+                     <lastName>Hanke</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/5E5F64D4B5E85E5F" name="IdentityLibDto" key="5E5F64D4B5E85E5F"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10646304</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>364951</id>
+                     <personId>364951</personId>
+                     <obfuscated>3AE75D5BE43272AC</obfuscated>
+                     <firstName>Matthias</firstName>
+                     <lastName>Heiligensetzer</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/3AE75D5BE43272AC" name="IdentityLibDto" key="3AE75D5BE43272AC"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10646305</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>330560</id>
+                     <personId>330560</personId>
+                     <obfuscated>1BED040109D1991F</obfuscated>
+                     <firstName>Maria</firstName>
+                     <lastName>Karsten-Ott</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/1BED040109D1991F" name="IdentityLibDto" key="1BED040109D1991F"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10674376</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>342112</id>
+                     <personId>342112</personId>
+                     <obfuscated>12AB0271ABD30B22</obfuscated>
+                     <firstName>Inese</firstName>
+                     <lastName>Keza</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/12AB0271ABD30B22" name="IdentityLibDto" key="12AB0271ABD30B22"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <displayMoreLectureships>true</displayMoreLectureships>
+               <examinationMethodName coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examinationMethodName>
+               <registrationAvailable>true</registrationAvailable>
+               <registrationInfo coType="model-core.lib.model.langdata">
+                  <value>LV-Anmeldung möglich</value>
+                  <translations>
+                     <translation lang="de">LV-Anmeldung möglich</translation>
+                     <translation lang="en">Course open for registration</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </registrationInfo>
+               <registrationInfoStatus>RUNNING</registrationInfoStatus>
+               <registeredConfigType>REGPROC</registeredConfigType>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>3</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </cpCourseDto>
+            <cpCourseDescriptionDto>
+               <courseContent coType="model-core.lib.model.langdata">
+                  <value>In dieser LV werden Kenntnisse in Deutsch als Fremdsprache unter Berücksichtigung interkultureller, landeskundlicher und studienbezogener Aspekte erarbeitet, die es den Studierenden ermöglichen, sich in vertrauten Situationen, z.B. in Studium, Arbeit, Freizeit und Familie, und zu Themen von allgemeinem Interesse wie Film, Musik, Sport etc. selbständig und sicher in der Zielsprache zu verständigen, wenn Standardsprache verwendet wird. 
+Die Studierenden erweitern und benutzen ein grundlegendes Repertoire an logischen Haupt- und Nebensatz-Strukturen (z.B. Infinitivsatz, Finalsatz, Konsekutivsatz, Relativsatz) und an Verben und Nomen mit Präpositionalergänzung. Sie lernen/üben den Genitiv, die Funktion und den Gebrauch des Konjunktiv II und des Futur I. Sie wiederholen und ergänzen elementare Aspekte der Grammatik wie den Gebrauch der Zeiten und der Präpositionen. 
+Die Studierenden beschäftigen sich mit  kulturspezifischen Besonderheiten, beispielsweise in Bezug auf Feste und Gebräuche, Ausbildungssysteme, Berufswelt, Lebensformen und Freizeitverhalten und gewinnen Einblicke in die zeitgenössischen Kulturszene  Deutschlands. Die Studierenden üben Teamkompetenz durch kooperatives Handeln in multinational gemischten Gruppen.</value>
+                  <translations>
+                     <translation lang="de">In dieser LV werden Kenntnisse in Deutsch als Fremdsprache unter Berücksichtigung interkultureller, landeskundlicher und studienbezogener Aspekte erarbeitet, die es den Studierenden ermöglichen, sich in vertrauten Situationen, z.B. in Studium, Arbeit, Freizeit und Familie, und zu Themen von allgemeinem Interesse wie Film, Musik, Sport etc. selbständig und sicher in der Zielsprache zu verständigen, wenn Standardsprache verwendet wird. 
+Die Studierenden erweitern und benutzen ein grundlegendes Repertoire an logischen Haupt- und Nebensatz-Strukturen (z.B. Infinitivsatz, Finalsatz, Konsekutivsatz, Relativsatz) und an Verben und Nomen mit Präpositionalergänzung. Sie lernen/üben den Genitiv, die Funktion und den Gebrauch des Konjunktiv II und des Futur I. Sie wiederholen und ergänzen elementare Aspekte der Grammatik wie den Gebrauch der Zeiten und der Präpositionen. 
+Die Studierenden beschäftigen sich mit  kulturspezifischen Besonderheiten, beispielsweise in Bezug auf Feste und Gebräuche, Ausbildungssysteme, Berufswelt, Lebensformen und Freizeitverhalten und gewinnen Einblicke in die zeitgenössischen Kulturszene  Deutschlands. Die Studierenden üben Teamkompetenz durch kooperatives Handeln in multinational gemischten Gruppen.</translation>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseContent>
+               <previousKnowledge coType="model-core.lib.model.langdata">
+                  <value>gesicherte Kenntnisse der Stufe A2.2; Einstufungstest mit Ergebnis B1.1</value>
+                  <translations>
+                     <translation lang="de">gesicherte Kenntnisse der Stufe A2.2; Einstufungstest mit Ergebnis B1.1</translation>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </previousKnowledge>
+               <courseObjective coType="model-core.lib.model.langdata">
+                  <value>Diese LV orientiert sich am Niveau B1 des GER.
+Nach Abschluss der LV sind die Studierenden in der Lage sich in den meisten Situationen, denen man in Studium, Beruf und Freizeit im Sprachgebiet begegnet, sicher zu verständigen. Er/Sie kann Aspekte des schulischen und beruflichen Werdegangs referieren, Pläne, Wünsche und Hoffnungen äußern, Einladungen aussprechen, annehmen oder ablehnen, Ratschläge und Anweisungen erteilen, Meinungen äußern und argumentieren.
+Er/Sie kann wesentliche Inhalte in einfachen, authentischen Texten aus alltäglichen Bereichen verstehen und wiedergeben und sich spontan an Gesprächen zu vertrauten Themen  beteiligen. Er/Sie kann längere persönliche Briefe und Texte zu eigenen Erfahrungen verfassen.</value>
+                  <translations>
+                     <translation lang="de">Diese LV orientiert sich am Niveau B1 des GER.
+Nach Abschluss der LV sind die Studierenden in der Lage sich in den meisten Situationen, denen man in Studium, Beruf und Freizeit im Sprachgebiet begegnet, sicher zu verständigen. Er/Sie kann Aspekte des schulischen und beruflichen Werdegangs referieren, Pläne, Wünsche und Hoffnungen äußern, Einladungen aussprechen, annehmen oder ablehnen, Ratschläge und Anweisungen erteilen, Meinungen äußern und argumentieren.
+Er/Sie kann wesentliche Inhalte in einfachen, authentischen Texten aus alltäglichen Bereichen verstehen und wiedergeben und sich spontan an Gesprächen zu vertrauten Themen  beteiligen. Er/Sie kann längere persönliche Briefe und Texte zu eigenen Erfahrungen verfassen.</translation>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseObjective>
+               <additionalInformation>
+                  <recommendedLiterature coType="model-core.lib.model.langdata">
+                     <value>Lehrbuch:
+Netzwerk B1.1 NEU (Dengler, Stefanie et al.: Netzwerk B1.1 NEU, Deutsch als Fremdsprache, Kurs- und Übungsbuch, Klett Sprachen 2019);
+
+Übungsmaterial (freiwillig):
+Netzwerk NEU Intensivtrainer B1 (Rusch, Paul: Netzwerk B 1, Deutsch als Fremdsprache, Intensivtrainer, Klett Sprachen 2021)
+
+Empfohlene Grammatiken (freiwillig):
+Dengler, Stefanie; Sieber, Tanja: Netzwerk Grammatik A1-B1: Deutsch als Fremdsprache, Klett Sprachen 2017
+
+Hering, Axel et al.: em Übungsgrammatik Deutsch als Fremdsprache, Hueber Verlag, 2006
+
+Jin, Friederike; Voß, Ute: Grammatik aktiv A1-B1 Üben, Hören, Sprechen Übungsgrammatik mit Audio-CD, Cornelsen 2013</value>
+                     <translations>
+                        <translation lang="de">Lehrbuch:
+Netzwerk B1.1 NEU (Dengler, Stefanie et al.: Netzwerk B1.1 NEU, Deutsch als Fremdsprache, Kurs- und Übungsbuch, Klett Sprachen 2019);
+
+Übungsmaterial (freiwillig):
+Netzwerk NEU Intensivtrainer B1 (Rusch, Paul: Netzwerk B 1, Deutsch als Fremdsprache, Intensivtrainer, Klett Sprachen 2021)
+
+Empfohlene Grammatiken (freiwillig):
+Dengler, Stefanie; Sieber, Tanja: Netzwerk Grammatik A1-B1: Deutsch als Fremdsprache, Klett Sprachen 2017
+
+Hering, Axel et al.: em Übungsgrammatik Deutsch als Fremdsprache, Hueber Verlag, 2006
+
+Jin, Friederike; Voß, Ute: Grammatik aktiv A1-B1 Üben, Hören, Sprechen Übungsgrammatik mit Audio-CD, Cornelsen 2013</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </recommendedLiterature>
+                  <cpCourseUrlGroupDtos>
+                     <id>12</id>
+                     <groupName coType="model-core.lib.model.langdata">
+                        <value>Online Unterlagen</value>
+                        <translations>
+                           <translation lang="de">Online Unterlagen</translation>
+                           <translation lang="en">Online information</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </groupName>
+                     <courseUrlDtoList>
+                        <id>11</id>
+                        <url>https://www.moodle.tum.de/course/view.php?idnumber=950766485</url>
+                        <name coType="model-core.lib.model.langdata">
+                           <value>E-Learning Kurs (Moodle)</value>
+                           <translations>
+                              <translation lang="de">E-Learning Kurs (Moodle)</translation>
+                              <translation lang="en">e-learning course (moodle)</translation>
+                              <translation lang="fr"/>
+                              <translation lang="it"/>
+                           </translations>
+                        </name>
+                        <sorting>10</sorting>
+                     </courseUrlDtoList>
+                     <sorting>60</sorting>
+                  </cpCourseUrlGroupDtos>
+                  <comments coType="model-core.lib.model.langdata">
+                     <value>4 ECTS bei bestandener Prüfung:
+3 Leistungsnachweise, wie z.B. eine Projektaufgabe, Schreibaufgabe bzw. (online-) Test. Audio- oder Videoaufnahmen können Teil einer Prüfungsleistung sein. 
+Nähere Informationen werden zu Beginn der LV bekanntgegeben und sind in Moodle ersichtlich.</value>
+                     <translations>
+                        <translation lang="de">4 ECTS bei bestandener Prüfung:
+3 Leistungsnachweise, wie z.B. eine Projektaufgabe, Schreibaufgabe bzw. (online-) Test. Audio- oder Videoaufnahmen können Teil einer Prüfungsleistung sein. 
+Nähere Informationen werden zu Beginn der LV bekanntgegeben und sind in Moodle ersichtlich.</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </comments>
+               </additionalInformation>
+               <courseCategoryDto>
+                  <categoryGroupDto>
+                     <name coType="model-core.lib.model.langdata">
+                        <value>eLearning</value>
+                        <translations>
+                           <translation lang="de">eLearning</translation>
+                           <translation lang="en">eLearning</translation>
+                           <translation lang="fr"/>
+                           <translation lang="it"/>
+                        </translations>
+                     </name>
+                     <categoryElementDto>
+                        <name coType="model-core.lib.model.langdata">
+                           <value>Neuen Moodle-Kurs MIT GRUPPEN im akt. Sem. bereitstellen</value>
+                           <translations>
+                              <translation lang="de">Neuen Moodle-Kurs MIT GRUPPEN im akt. Sem. bereitstellen</translation>
+                              <translation lang="en">Provide new moodle course WITH GROUPS in current semester</translation>
+                              <translation lang="fr"/>
+                              <translation lang="it"/>
+                           </translations>
+                        </name>
+                     </categoryElementDto>
+                  </categoryGroupDto>
+               </courseCategoryDto>
+               <assessmentScheme coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </assessmentScheme>
+               <examRegistration coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </examRegistration>
+               <courseRegistrationInfo coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseRegistrationInfo>
+               <numberOfExams coType="model-core.lib.model.langdata">
+                  <translations>
+                     <translation lang="de"/>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </numberOfExams>
+               <teachingMethod coType="model-core.lib.model.langdata">
+                  <value>Die LV besteht aus einem Seminar, in dem die angestrebten Lerninhalte mit gezielten Hör-, Lese-, Schreib- und Sprechübungen erarbeitet werden. Durch die Kombination dieser Übungen in Einzel-, Partner- und Gruppenarbeit wird der kommunikative und handlungsorientierte Ansatz umgesetzt. Durch kontrolliertes Revidieren der Grundgrammatik im Selbststudium mit vorgegebenen (online-) Materialien werden die im Seminar vermittelten Inhalte vertieft. 
+Freiwillige Hausaufgaben (zur Vor- und Nacharbeitung) festigen das Gelernte.</value>
+                  <translations>
+                     <translation lang="de">Die LV besteht aus einem Seminar, in dem die angestrebten Lerninhalte mit gezielten Hör-, Lese-, Schreib- und Sprechübungen erarbeitet werden. Durch die Kombination dieser Übungen in Einzel-, Partner- und Gruppenarbeit wird der kommunikative und handlungsorientierte Ansatz umgesetzt. Durch kontrolliertes Revidieren der Grundgrammatik im Selbststudium mit vorgegebenen (online-) Materialien werden die im Seminar vermittelten Inhalte vertieft. 
+Freiwillige Hausaufgaben (zur Vor- und Nacharbeitung) festigen das Gelernte.</translation>
+                     <translation lang="en"/>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </teachingMethod>
+            </cpCourseDescriptionDto>
+            <displayExamInformation>false</displayExamInformation>
+            <sameCourseDtos>
+               <id>950944244</id>
+               <courseNumber>
+                  <dotIndex>0</dotIndex>
+                  <databaseValue>220000DE18</databaseValue>
+                  <courseNumber>220000DE18</courseNumber>
+               </courseNumber>
+               <semesterDto>
+                  <id>207</id>
+                  <key>26W</key>
+                  <academicYearId>1623</academicYearId>
+                  <semesterType>W</semesterType>
+                  <semesterDesignation coType="model-core.lib.model.langdata">
+                     <value>Wintersemester 2026/27</value>
+                     <translations>
+                        <translation lang="de">Wintersemester 2026/27</translation>
+                        <translation lang="en">Winter semester 2026/27</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </semesterDesignation>
+                  <startOfAcademicSemester coType="date">
+                     <value>2026-10-01</value>
+                  </startOfAcademicSemester>
+                  <endOfAcademicSemester coType="date">
+                     <value>2027-03-31</value>
+                  </endOfAcademicSemester>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>2026 W</value>
+                     <translations>
+                        <translation lang="de">2026 W</translation>
+                        <translation lang="en"/>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+               </semesterDto>
+               <courseTitle coType="model-core.lib.model.langdata">
+                  <value>Deutsch als Fremdsprache B1.1</value>
+                  <translations>
+                     <translation lang="de">Deutsch als Fremdsprache B1.1</translation>
+                     <translation lang="en">German as a Foreign Language B1.1</translation>
+                     <translation lang="fr"/>
+                     <translation lang="it"/>
+                  </translations>
+               </courseTitle>
+               <courseTypeDto>
+                  <id>15</id>
+                  <key>SE</key>
+                  <courseTypeName coType="model-core.lib.model.langdata">
+                     <value>Seminar</value>
+                     <translations>
+                        <translation lang="de">Seminar</translation>
+                        <translation lang="en">seminar</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeName>
+                  <courseTypeShortName coType="model-core.lib.model.langdata">
+                     <value>SE</value>
+                     <translations>
+                        <translation lang="de">SE</translation>
+                        <translation lang="en">SE</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </courseTypeShortName>
+                  <sort>30</sort>
+               </courseTypeDto>
+               <lectureships>
+                  <id>10646310</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>383086</id>
+                     <personId>383086</personId>
+                     <obfuscated>D675E77BE75C4C91</obfuscated>
+                     <firstName>Terezija</firstName>
+                     <lastName>Grgic</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/D675E77BE75C4C91" name="IdentityLibDto" key="D675E77BE75C4C91"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10646300</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>276529</id>
+                     <personId>276529</personId>
+                     <obfuscated>5E5F64D4B5E85E5F</obfuscated>
+                     <firstName>Claudia</firstName>
+                     <lastName>Hanke</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/5E5F64D4B5E85E5F" name="IdentityLibDto" key="5E5F64D4B5E85E5F"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10646304</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>364951</id>
+                     <personId>364951</personId>
+                     <obfuscated>3AE75D5BE43272AC</obfuscated>
+                     <firstName>Matthias</firstName>
+                     <lastName>Heiligensetzer</lastName>
+                     <gender>MALE</gender>
+                     <genderNrForTitle>1</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/3AE75D5BE43272AC" name="IdentityLibDto" key="3AE75D5BE43272AC"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10646305</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>330560</id>
+                     <personId>330560</personId>
+                     <obfuscated>1BED040109D1991F</obfuscated>
+                     <firstName>Maria</firstName>
+                     <lastName>Karsten-Ott</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/1BED040109D1991F" name="IdentityLibDto" key="1BED040109D1991F"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <lectureships>
+                  <id>10674376</id>
+                  <courseId>950944244</courseId>
+                  <identityLibDto>
+                     <id>342112</id>
+                     <personId>342112</personId>
+                     <obfuscated>12AB0271ABD30B22</obfuscated>
+                     <firstName>Inese</firstName>
+                     <lastName>Keza</lastName>
+                     <gender>FEMALE</gender>
+                     <genderNrForTitle>2</genderNrForTitle>
+                     <businessCardLink rel="related" href="https://campus.tum.de/tumonline/ee/rest/pages/brm.pm.bc/business-card/12AB0271ABD30B22" name="IdentityLibDto" key="12AB0271ABD30B22"/>
+                  </identityLibDto>
+                  <teachingFunction>
+                     <id>2</id>
+                     <key>V</key>
+                     <name>Vortragende*r</name>
+                  </teachingFunction>
+               </lectureships>
+               <displayMoreLectureships>true</displayMoreLectureships>
+               <displayCourseRegistrationInfo>false</displayCourseRegistrationInfo>
+               <courseNormConfigs>
+                  <key>SST</key>
+                  <shortName coType="model-core.lib.model.langdata">
+                     <value>SWS</value>
+                     <translations>
+                        <translation lang="de">SWS</translation>
+                        <translation lang="en">SWS</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </shortName>
+                  <name coType="model-core.lib.model.langdata">
+                     <value>Semesterwochenstunden</value>
+                     <translations>
+                        <translation lang="de">Semesterwochenstunden</translation>
+                        <translation lang="en">Semester weekly hours</translation>
+                        <translation lang="fr"/>
+                        <translation lang="it"/>
+                     </translations>
+                  </name>
+                  <value>3</value>
+               </courseNormConfigs>
+               <lvCreditsEnabled>true</lvCreditsEnabled>
+               <eLearningActive>false</eLearningActive>
+            </sameCourseDtos>
+         </cpCourseDetailDto>
+      </content>
+   </resource>
+</codata:resources>
+

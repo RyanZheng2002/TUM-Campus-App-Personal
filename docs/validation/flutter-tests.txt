@@ -1,0 +1,173 @@
+00:00 +0: loading <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart
+00:00 +0: <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart: Cafeteria JSON decoding decodes a full cafeteria with opening hours
+00:00 +1: <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart: Cafeteria JSON decoding decodes a cafeteria without optional opening hours
+00:00 +2: <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart: Cafeteria JSON decoding Cafeterias wrapper decodes list from "data" key
+00:00 +3: <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart: Dish JSON decoding decodes a dish with prices and labels
+00:00 +4: <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart: Dish JSON decoding decodes a dish with no labels
+00:00 +5: <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart: MealPlan / MensaMenu JSON decoding decodes a weekly meal plan with multiple days
+00:00 +6: <workspace>/work/campus_flutter/test/eatApi/cafeteria_test.dart: MealPlan / MensaMenu JSON decoding decodes an empty meal plan
+00:00 +7: <workspace>/work/campus_flutter/test/helpers/api_response_test.dart: ApiResponse.fromJson decodes when root JSON is a Map
+00:00 +8: <workspace>/work/campus_flutter/test/helpers/api_response_test.dart: ApiResponse.fromJson wraps root JSON List in {"data": [...]} before calling create
+00:00 +9: <workspace>/work/campus_flutter/test/helpers/api_response_test.dart: ApiResponse.fromJson threads "saved" DateTime through from extras
+00:00 +10: <workspace>/work/campus_flutter/test/helpers/api_response_test.dart: ApiResponse.fromJson saved is null when not present in extras
+00:00 +11: <workspace>/work/campus_flutter/test/helpers/api_response_test.dart: ApiResponse.fromJson passes decoded data through the create function
+00:00 +12: <workspace>/work/campus_flutter/test/helpers/read_list_value_test.dart: readListValue returns empty list when key is absent
+00:00 +13: <workspace>/work/campus_flutter/test/helpers/read_list_value_test.dart: readListValue returns empty list when value is null
+00:00 +14: <workspace>/work/campus_flutter/test/helpers/read_list_value_test.dart: readListValue passes a List through unchanged
+00:00 +15: <workspace>/work/campus_flutter/test/helpers/read_list_value_test.dart: readListValue wraps a String in a list
+00:00 +16: <workspace>/work/campus_flutter/test/helpers/read_list_value_test.dart: readListValue wraps a Map in a list
+00:00 +17: <workspace>/work/campus_flutter/test/helpers/read_list_value_test.dart: readListValue returns empty list for numeric value (unrecognised type)
+00:00 +18: <workspace>/work/campus_flutter/test/helpers/read_list_value_test.dart: readListValue preserves list with mixed-type entries
+00:02 +19: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble parses dot-decimal string
+00:02 +20: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble parses comma-decimal string (German format)
+00:02 +21: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble parses integer string as double
+00:02 +22: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble returns null for null input
+00:02 +23: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble returns null for non-parseable string (e.g. "n.b.")
+00:02 +24: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble returns null for empty string
+00:02 +25: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble parses zero
+00:02 +26: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToDouble parses tuition amount with comma
+00:02 +27: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToInt parses a valid integer string
+00:02 +28: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToInt returns 0 for null input
+00:02 +29: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToInt returns 0 for non-integer string
+00:02 +30: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToInt returns 0 for empty string
+00:02 +31: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.stringToInt parses large ID numbers
+00:02 +32: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.optStringToOptInt parses a valid integer string
+00:02 +33: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.optStringToOptInt returns null for null input
+00:02 +34: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.optStringToOptInt returns null for non-integer string
+00:02 +35: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.optStringToOptInt returns null for empty string
+00:02 +36: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.optStringToOptDouble parses a comma-decimal string
+00:02 +37: <workspace>/work/campus_flutter/test/helpers/string_parser_test.dart: StringParser.optStringToOptDouble returns null for null input
+00:02 +38: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: Departure JSON decoding decodes a full departure with realDateTime
+00:02 +39: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: Departure JSON decoding decodes when dateTime / realDateTime are absent (null)
+00:02 +40: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: Departure JSON decoding decodes optional delay on ServingLine
+00:02 +41: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: Departure JSON decoding ServingLine.delay is null when absent
+00:02 +42: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: MvvResponse JSON decoding decodes a response with a list of departures
+00:02 +43: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: MvvResponse JSON decoding single departure returned as nested Map (readDepartures Map branch)
+00:02 +44: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: MvvResponse JSON decoding returns empty departures list when departureList is absent
+00:02 +45: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: ServingLine colors U6 (code 1) → blue
+00:02 +46: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: ServingLine colors code 4 (S-Bahn) → red
+00:02 +47: <workspace>/work/campus_flutter/test/mvvApi/departure_test.dart: ServingLine colors unknown code → grey
+00:03 +48: <workspace>/work/campus_flutter/test/navigaTumApi/navigatum_test.dart: NavigaTumSearchResponse JSON decoding decodes a search response with multiple sections
+00:03 +49: <workspace>/work/campus_flutter/test/navigaTumApi/navigatum_test.dart: NavigaTumSearchResponse JSON decoding decodes an empty sections list
+00:03 +50: <workspace>/work/campus_flutter/test/navigaTumApi/navigatum_test.dart: NavigaTumNavigationEntity getFormattedName returns name only when parsedId is null
+00:03 +51: <workspace>/work/campus_flutter/test/navigaTumApi/navigatum_test.dart: NavigaTumNavigationEntity getFormattedName includes parsedId when present
+00:03 +52: <workspace>/work/campus_flutter/test/navigaTumApi/navigatum_test.dart: NavigaTumNavigationEntity getFormattedName strips NavigaTum highlight control characters
+00:03 +53: <workspace>/work/campus_flutter/test/navigaTumApi/navigatum_test.dart: NavigaTumNavigationDetails JSON decoding decodes a full location detail response
+00:03 +54: <workspace>/work/campus_flutter/test/navigaTumApi/navigatum_test.dart: NavigaTumNavigationDetails JSON decoding hasCoordinates is false when lat/lon are null
+00:03 +55: <workspace>/work/campus_flutter/test/tumOnlineApi/average_grade_test.dart: AverageGrades XML decoding decodes average grades using the "studien" plural key
+00:04 +56: <workspace>/work/campus_flutter/test/tumOnlineApi/average_grade_test.dart: AverageGrades XML decoding handles null average grade
+00:04 +57: <workspace>/work/campus_flutter/test/tumOnlineApi/average_grade_test.dart: AverageGrades XML decoding returns empty list when rowset has no studium elements
+00:04 +58: <workspace>/work/campus_flutter/test/tumOnlineApi/average_grade_test.dart: AverageGrades XML decoding decodes comma-formatted grade to double
+00:04 +59: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_editing_test.dart: CalendarCreationConfirmationData XML decoding decodes a creation confirmation response
+00:04 +60: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_editing_test.dart: CalendarDeletionConfirmationData XML decoding decodes a deletion confirmation response
+00:04 +61: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent.lvNr returns the lecture number from a well-formed URL
+00:04 +62: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent.lvNr returns null when url is null
+00:04 +63: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent.lvNr returns null when the URL has no lecture API number
+00:04 +64: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent.getColor() returns orange when description contains "prüfungstermin"
+00:04 +65: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent.getColor() is case-insensitive for "prüfungstermin"
+00:04 +66: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent.getColor() returns the stored color when set and not an exam
+00:04 +67: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent.getColor() returns primaryLightColor when color is null and not an exam
+00:04 +68: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_computed_test.dart: CalendarEvent XML round-trip computed properties timePeriod is formatted correctly after decode
+00:04 +69: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_test.dart: CalendarEvents XML decoding decodes multiple events from XML
+00:04 +70: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_test.dart: CalendarEvents XML decoding decodes a single event (location as single value, not list)
+00:04 +71: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_test.dart: CalendarEvents XML decoding returns empty events list when rowset has no events
+00:04 +72: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_test.dart: CalendarEvents XML decoding decodes a canceled event
+00:04 +73: <workspace>/work/campus_flutter/test/tumOnlineApi/calendar_event_test.dart: CalendarEvents XML decoding duration is calculated correctly
+00:04 +74: <workspace>/work/campus_flutter/test/tumOnlineApi/grade_test.dart: Grades XML decoding decodes a list of grades from XML
+00:05 +75: <workspace>/work/campus_flutter/test/tumOnlineApi/grade_test.dart: Grades XML decoding returns empty grades list when rowset has no rows
+00:05 +76: <workspace>/work/campus_flutter/test/tumOnlineApi/grade_test.dart: Grades XML decoding grade id combines date and lvNumber
+00:05 +77: <workspace>/work/campus_flutter/test/tumOnlineApi/grade_test.dart: Grades XML decoding grade with null date — id still safe to access
+00:05 +78: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_details_test.dart: LectureDetailsElement XML decoding decodes a single lecture details row from XML
+00:05 +79: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_details_test.dart: LectureDetailsElement XML decoding decodes lecture details when row is a list (single-item list unwrap)
+00:05 +80: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_details_test.dart: LectureDetailsElement XML decoding optional fields are null when absent
+00:24 +81: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: legacy query parsing does not include following parameters
+00:25 +82: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: browser course and legacy IDs remain distinct; tokens are omitted
+00:25 +83: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: real calendar cLvNr links identify the current course directly
+00:25 +84: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: external hosts and executable links are not course links
+00:25 +85: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: service outage remains distinct from missing permission
+00:25 +86: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: unresolved link produces only an error state without a course
+00:25 +87: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: HTTP error is preserved rather than hidden by the disabled legacy API
+00:25 +88: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: mismatched ID is an error and never appears as course information
+00:25 +89: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_test.dart: failed refresh removes previously loaded course data
+00:25 +90: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: (setUpAll)
+[90m[🌎 Easy Localization] [DEBUG] Localization initialized[0m
+00:26 +90: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:26 +91: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:26 +92: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:26 +93: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:26 +94: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:26 +95: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:27 +96: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:27 +97: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:27 +98: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:27 +99: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:27 +100: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:27 +101: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:27 +102: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:28 +103: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:28 +104: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:28 +105: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+00:28 +106: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: valid B1.1 course is grouped and contains no fallback prose
+[90m[🌎 Easy Localization] [DEBUG] Start[0m
+[90m[🌎 Easy Localization] [DEBUG] Init state[0m
+[90m[🌎 Easy Localization] [DEBUG] Build[0m
+[90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+[90m[🌎 Easy Localization] [DEBUG] Load Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Build[0m
+[90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+00:28 +107: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: failed details show only the error and retry
+[90m[🌎 Easy Localization] [DEBUG] Start[0m
+[90m[🌎 Easy Localization] [DEBUG] Init state[0m
+[90m[🌎 Easy Localization] [DEBUG] Build[0m
+[90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+[90m[🌎 Easy Localization] [DEBUG] Load Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Build[0m
+[90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+00:28 +108: <workspace>/work/campus_flutter/test/tumOnlineApi/lecture_recovery_widget_test.dart: dark mode and enlarged text have no overflow
+[90m[🌎 Easy Localization] [DEBUG] Start[0m
+[90m[🌎 Easy Localization] [DEBUG] Init state[0m
+[90m[🌎 Easy Localization] [DEBUG] Build[0m
+[90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+[90m[🌎 Easy Localization] [DEBUG] Load Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Build[0m
+[90m[🌎 Easy Localization] [DEBUG] Init Localization Delegate[0m
+[90m[🌎 Easy Localization] [DEBUG] Init provider[0m
+00:29 +109: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: calendar XML cLvNr reaches public details without the removed legacy page
+00:29 +110: <workspace>/work/campus_flutter/test/tumOnlineApi/student_card_test.dart: StudentCards XML decoding decodes multiple student cards using the "cards" plural key
+00:29 +111: <workspace>/work/campus_flutter/test/tumOnlineApi/student_card_test.dart: StudentCards XML decoding decodes multiple student cards using the "cards" plural key
+00:29 +112: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: legacy link is resolved by an explicit official redirect, not by assuming an ID
+00:29 +113: <workspace>/work/campus_flutter/test/tumOnlineApi/student_card_test.dart: StudentCards XML decoding decodes multiple cards
+00:29 +114: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: NavigaTUM searches use the full room code and encode free text safely
+00:29 +115: <workspace>/work/campus_flutter/test/tumOnlineApi/student_card_test.dart: StudentCards XML decoding returns empty list when rowset has no cards
+00:29 +116: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: user meeting maps to its actual course without submitting a form
+00:29 +117: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: user meeting maps to its actual course without submitting a form
+00:29 +118: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: user meeting maps to its actual course without submitting a form
+00:29 +119: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: actual user course restores German syllabus when English is empty
+00:29 +120: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: real public response maps English title, contents, teachers and SWS
+00:29 +121: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: requested language and missing course content are handled explicitly
+00:29 +122: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: wrong ID, HTML login page and XML error do not become a course
+00:29 +123: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: public course IDs use validated website links, never the legacy LvNr
+00:29 +124: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: public requests send no app token and cache per language; refresh bypasses cache
+00:29 +125: <workspace>/work/campus_flutter/test/tumOnlineApi/public_course_test.dart: viewmodel loads public details without calling the disabled legacy API
+00:29 +126: <workspace>/work/campus_flutter/test/tumOnlineApi/tuition_test.dart: Tuitions XML decoding decodes tuition status — single row unwrap
+00:29 +127: <workspace>/work/campus_flutter/test/tumOnlineApi/tuition_test.dart: Tuitions XML decoding handles null amount when soll is absent
+00:29 +128: <workspace>/work/campus_flutter/test/tumOnlineApi/tuition_test.dart: Tuitions XML decoding single-row list unwrap: takes first row when multiple rows present
+00:29 +129: <workspace>/work/campus_flutter/test/tumOnlineApi/tuition_test.dart: Tuitions XML decoding decodes zero tuition amount
+00:29 +130: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes "Keine Rechte für Funktion" as NoPermission
+00:29 +131: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes "Funktion nicht erlaubt" as NoPermission
+00:29 +132: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes "Token ist nicht bestätigt!" as TokenNotConfirmed
+00:29 +133: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes "Token ist ungültig!" as InvalidToken
+00:29 +134: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes "Ungültige pIdentNr" as PersonNotFound
+00:29 +135: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes "Person ist nicht sichtbar." as PersonNotFound
+00:29 +136: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes Suchstring error as InvalidSearchString
+00:29 +137: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding decodes unknown message as Unknown with correct message
+00:29 +138: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding TumOnlineApiException implements Exception
+00:29 +139: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding ExceptionBody decodes directly from JSON
+00:29 +140: <workspace>/work/campus_flutter/test/tumOnlineApi/tum_online_api_exception_test.dart: TumOnlineApiException XML decoding toString returns a human-readable string with the exception type
+[34m[🌎 Easy Localization] [WARNING] Localization key [tokenInvalid] not found[0m
+00:30 +141: All tests passed!
